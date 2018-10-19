@@ -8,6 +8,14 @@ class Login extends Component {
     return(
       <div className='Login'>
          <h2>Welcome To Chat8740</h2>
+         <div className="login-box">
+            <h2>Login To Enter Room</h2>
+            <input placeholder='Username' />
+            <input type='password' placeholder='Password'/>
+            <button>Enter Room</button>
+            <a>Forget Password?</a>
+         </div>
+
       </div>
     )
   }
