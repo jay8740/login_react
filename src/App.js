@@ -10,10 +10,10 @@ class Login extends Component {
          <h2>Welcome To Chat8740</h2>
          <div className="login-box">
             <h2>Login To Enter Room</h2>
-            <input placeholder='Username' />
-            <input type='password' placeholder='Password'/>
-            <button>Enter Room</button>
-            <a>Forget Password?</a>
+            <input className="inp_username" placeholder='Username' />
+            <input className="inp_pass" type='password' placeholder='Password'/>
+            <button className="enter_button">Enter Room</button>
+            <a href=''>Forget Password?</a>
          </div>
 
       </div>
