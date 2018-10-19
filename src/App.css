@@ -53,6 +53,7 @@
   width: 50%;
   margin-left: 25%;
   border: 1px solid #2C3E50;
+  margin-bottom: 15px;
 }
 
 .inp_username {
@@ -112,5 +113,12 @@ a {
   padding-bottom: 20px;
   text-decoration: underline;
   text-decoration-color: #5DADE2;
+}
+
+.Footer {
+  background-color: #231D1F;
+  text-align: center;
+  font-family: 'Economica', sans-serif;
+  color: #C01E54;
 }
 

@@ -21,8 +21,18 @@ class Login extends Component {
   }
 }
 
+const Footer = () => {
+  return(
+    <div className="Footer">
+      <hr/>
+      <p>Follow Me On </p>
+      <a href="https://www.github.com/jpatidar8740"><img src={require('./assets/github.png')} className="github_logo" /></a>
+    </div>
+  );
+}
+
 const Header = () => {
-  return (
+  return(
       <div className="Header">
           <img src={logo} alt="" />
           <p className="Title">Chat8740</p>
@@ -38,6 +48,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <Login />
+        <Footer />
       </div>
     );
   }
