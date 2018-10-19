@@ -1,4 +1,8 @@
 .App {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100%;
   background-color: #231D1F;
 }
 
@@ -41,4 +45,12 @@
   text-align: center;
   font-family: 'Economica', sans-serif;
   color: #C01E54;
+}
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 25%;
+  border: 1px solid #2C3E50;
 }
