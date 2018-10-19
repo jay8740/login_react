@@ -1,0 +1,44 @@
+.App {
+  background-color: #231D1F;
+}
+
+.Header {
+  display: flex;
+  background-color: #2C3E50;
+  padding: 5px;
+}
+
+.Title {
+  align-content: center;
+  margin-left: 10px;
+  color: #eeeeee;
+  font-family: 'Economica', sans-serif;
+  font-size: 35px;
+}
+
+.SignUp {
+  align-content: center;
+   width: 8%;
+   height: 35px;
+   margin-left: 75%;
+   margin-top: 30px;
+   border: none;
+   background: #641E16;
+   color: rgb(108, 156, 156);
+   font-family: 'Economica', sans-serif;
+   font-size: 20px;
+   border-radius: 5px;
+}
+
+.SignUp:hover {
+  background: #eeeeee;
+  border: 1.5px solid #641E16;
+  color: #2C3E50;
+}
+
+.Login {
+  background-color: #231D1F;
+  text-align: center;
+  font-family: 'Economica', sans-serif;
+  color: #C01E54;
+}
